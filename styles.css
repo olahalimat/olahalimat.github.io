@@ -116,4 +116,15 @@ textarea {
         width: 70%;
         height:50%;
     }
+    .form-container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    input[type="text"],
+    input[type="file"],
+    select,
+    textarea {
+        margin-bottom: 10px;
+    }
 }
