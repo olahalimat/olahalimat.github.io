@@ -55,7 +55,7 @@ p{
 }
 article{
     float: right;
-    padding: 50px;
+    padding:50px;
     width: 95%;
     background-color: rgb(237, 198, 198);
     height:320px;
@@ -65,4 +65,19 @@ footer{
     padding: 10px;
     text-align: center;
     color: white;
+}
+@media screen and (max-width: 600px) {
+    .navigation-bar button {
+        display: block;
+        width: 100%;
+        margin: 5px 0;
+    }
+    article {
+        padding: 10px;
+        width: 100%;
+        margin: 10px 0;
+    }
+    .header {
+        padding: 5px;
+    }
 }
