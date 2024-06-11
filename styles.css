@@ -55,13 +55,13 @@ p{
 }
 article{
     float: right;
-    padding: 20px;
-    width: 950%;
-    background-color: rgb(192, 168, 168);
-    height:300px;
+    padding: 50px;
+    width: 95%;
+    background-color: rgb(237, 198, 198);
+    height:320px;
 } 
 footer{
-    background-color: #edb1b1;
+    background-color: #8d8888;
     padding: 10px;
     text-align: center;
     color: white;
