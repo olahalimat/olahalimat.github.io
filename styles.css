@@ -56,9 +56,9 @@ p{
 article{
     float: right;
     padding: 20px;
-    width: 70%;
-    background-color: #f1f1f1;
-    height:400px;
+    width: 50%;
+    background-color: rgb(192, 168, 168);
+    height:300px;
 } 
 footer{
     background-color: #777;
