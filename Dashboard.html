@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            RATE THIS SPOT
+        </title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0, user-scalable=no"/>
+        <meta name="HandheldFriendly" content="true"/>
+    </head>
+    <body>
+        <div class="mainpage">
+            <div class="header"><h2>RATE THIS SPOT</h2></div>
+            <div class="navigation-bar">
+                <button onclick="window.open('index.html','_parent')">Home</button> <!--When clicked home button returns to home page-->
+                <span><input id="btnCamera" type="file" accept="image/*" capture="environment"/></span> <!--Create button to open camera-->
+                <button>Gallery</button>
+                <button id="dashboards" onclick="window.open('Dashboard.html','_parent')" >Dashboard</button>
+            </div>
+            <div class="box1" onclick="window.open('image1.html','_parent')">
+                <img class="Image1" src="cafe.jfif" alt="Image of a cafe">
+            </div>
+            <div class="box2" onclick="window.open('image2.html','_parent')">
+                <img class="Image2" src="gallery.jfif" alt="Image of a gallery">
+            </div>
+            <div class="box3" onclick="window.open('image3.html','_parent')">
+                <img class="Image3" src="hotel.jfif" alt="Image of a hotel">
+            </div>
+            <div class="box4" onclick="window.open('image4.html','_parent')"> 
+                <img class="Image4" src="park.jpeg" alt="Image of a museum">
+            </div>
+        </div>        
+    </body>
+</html>
