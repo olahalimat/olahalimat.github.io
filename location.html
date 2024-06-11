@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            RATE THIS SPOT
+        </title>
+        <style>
+            body{
+                background-image:url('welcome.jfif');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+            }
+        </style>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0, user-scalable=no"/>
+        <meta name="HandheldFriendly" content="true"/>
+    </head>
+    <body>
+        <div class="mainpage">
+            <div class="header"><h2>RATE THIS SPOT</h2></div>
+            <div class="navigation-bar">
+                <button onclick="window.open('index.html','_parent')">Home</button> <!--When clicked home button returns to home page-->
+                <span><input id="btnCamera" type="file" accept="image/*" capture="environment"/></span> <!--Create button to open camera-->
+                <button>Gallery</button>
+                <button onclick="window.open('location.html','_parent')">Add a new location</button>
+                <button id="dashboards" onclick="window.open('Dashboard.html','_parent')" >Dashboard</button>
+            </div>
+        </div>
+        <div class="form-container">
+            <h2>Add a New Location</h2>
+            <form id="addLocationForm">
+                <label for="locationName">Location Name:</label>
+                <input type="text" id="locationName" name="locationName" required>
+    
+                <label for="locationImage">Upload Image:</label>
+                <input type="file" id="locationImage" name="locationImage" accept="image/*" capture="environment" required>
+    
+                <label for="rating">Rating:</label>
+                <select id="rating" name="rating" required>
+                    <option value="5">★★★★★</option>
+                    <option value="4">★★★★☆</option>
+                    <option value="3">★★★☆☆</option>
+                    <option value="2">★★☆☆☆</option>
+                    <option value="1">★☆☆☆☆</option>
+                </select>
+    
+                <label for="review">Review:</label>
+                <textarea id="review" name="review" rows="4" required></textarea>
+    
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+    
+                <button type="submit">Save Location</button>
+            </form>
+        </div>
+    </body>
+</html>
