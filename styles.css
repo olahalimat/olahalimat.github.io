@@ -74,15 +74,15 @@ footer{
     }
     article {
         padding: 10px;
-        width:100%;
-        min-height: auto;
+        width:98%;
+        height:150%;
         margin:10px 0;
     }
     .header {
         padding: 5px;
     }
     .home{
-        width: 100%;
-        height:auto;
+        width: 70%;
+        height:50%;
     }
 }
