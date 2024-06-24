@@ -135,3 +135,12 @@ textarea {
         height: 400px;
     }
 }
+#dashboards:hover{
+   background-color:cadetblue
+}
+#home:hover{
+    background-color: cadetblue;
+}
+#location:hover{
+    background-color: cadetblue;
+}
