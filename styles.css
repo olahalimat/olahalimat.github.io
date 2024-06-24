@@ -122,3 +122,16 @@ textarea {
         margin-bottom: 10px;
     }
 }
+@media screen and (min-width: 992px){
+    article{
+      float: right;
+      padding:50px;
+      width:97%;
+      background-color: rgb(237, 198, 198);
+      height:650px;
+    }
+    .home{
+        width:400px;
+        height: 400px;
+    }
+}
